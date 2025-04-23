@@ -1,0 +1,778 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#031D26;
+    max-width: 100%;
+}
+.container{
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(106, 106, 173, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size:20px;
+    position:fixed;
+    width:100%;
+  top: 0px;
+
+  
+}
+.dropdown2 {
+  display: none;
+  float: left;
+  overflow: hidden;
+}
+
+
+button {
+  font-family: "Orbitron", sans-serif;
+  border: 1px solid #2edaf1;
+  outline: 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  padding: 20px 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
+  transition: all .25sease-in-out;
+}
+
+
+.dropbtn2:hover {
+
+  background-color: #0f3947;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #022636;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content2 a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content2 a:hover {
+  background-color: #0f3947;
+
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+
+
+
+.links a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+    margin: 25px;
+    
+}
+.links a:hover{
+
+    color: aqua;
+}
+
+
+.butonat {
+margin: 10px;
+  display: flex;
+  color: white;
+
+}
+.logo1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.logo1 img{
+  width: 20px;
+  box-shadow: rgba(255, 255, 255, 0.664)0px 1px 6px;
+  padding:6px 14px;
+  border-radius: 10px;
+
+}
+
+.logo2{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.logo2 img{
+width: 25px;
+box-shadow: rgba(255, 255, 255, 0.664) 0px 1px 6px;
+padding:8px 14px;
+border-radius: 10px;
+
+}
+
+
+.logo1 img:hover{
+
+  box-shadow: rgba(54, 203, 230, 0.993)  0px 1px 6px;
+}
+.logo2 img:hover{
+
+  box-shadow: rgba(54, 203, 230, 0.993) 0px 1px 6px;
+}
+
+
+.butonat i:hover{
+    color: lightblue;
+}
+.divi1{
+  margin: 100px auto;
+  display: flex;
+  width: 99%;
+  align-items: center;
+  flex-direction: row;
+   
+
+}
+.foto img{
+  width: 700px;
+    border-radius: 20px ;
+}
+.teksti{
+ 
+    width: 100%;
+    margin-left: 100px;
+    color: white;
+    font-size: x-large;
+}
+.teksti p{
+    color: rgb(81, 101, 103);
+}
+
+.neon-button {
+    margin-top: 35px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #0ff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 0 0 1px #0ff, 0 0 15px #0ff inset;
+}
+
+.neon-button:hover {
+    transform: translateY(-7px);
+    background-color: #1fcde7;
+    color: #000;
+    border: none;
+    box-shadow: 0 0 1px #1fcde7, 0 0 15px #1fcde7;
+}
+
+.story{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.titulli h1{
+font-size: 40px;
+color: white;
+}
+.titulli p{
+    font-size: larger;
+    color: rgb(81, 101, 103);
+}
+.foto2 img{
+  width: 700px;
+    border-radius: 15px;
+
+}
+.boxat{
+  margin: 20px;
+}
+.box{
+    background-image: radial-gradient(at top right, #00E1FF24 0%, #01141D 50%);
+    border: 1px solid #454c68;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    margin: 20px;
+    height: 150px;
+  }
+  
+  .box:hover{
+    background-image: radial-gradient(at top right, #00E1FF24 0%, #01141D 60% );
+    box-shadow: 0 0 2px rgb(0, 255, 255) ;
+  }
+  .box h3{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .box p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #b0d5e8;
+  }
+  
+  .box i{
+    color: black;
+    background-color: rgb(48, 209, 209);
+    padding: 10px;
+    border-radius:30px;
+    margin: 5px;
+  }
+
+
+
+
+
+
+  .kryesor{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  
+  }
+  .teksti{
+    color: white;
+    text-align: center;
+}
+
+  .box1{
+    background-image: radial-gradient(at top right, #00E1FF24 0%, #01141D 60%);
+    border: 0.5px solid #33384d;
+    border-radius: 10px;
+    padding: 20px;
+    width:30%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    margin: 10px;
+    height: 250px;
+  }
+  
+  .box1:hover{
+    background-image: radial-gradient(at top right, #00E1FF24 0%, #01141D 80% );
+    transform: translateY(-15px);
+    transition: all 0.5s;
+  }
+  
+  .box1 h3{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .box1 p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #b0d5e8;
+  }
+  .boxat2{
+    width: 100%;
+    display: flex;
+    margin: 80px;
+  }
+    .box1 i{
+    color: black;
+    background-color: rgb(48, 209, 209);
+    padding: 10px;
+    border-radius:30px;
+  }
+
+
+
+
+.intro{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    background-image: url(femalework.jpg);
+background-size: cover;
+background-color: rgba(2, 11, 34, 0.84);
+background-blend-mode: color-burn;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    
+}
+
+
+.dropbtn {
+    margin-left: 30px;
+    font-size: xx-large;
+    background-color: rgba(0, 255, 255, 0.2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover {
+    width: 85px;
+    height: 85px;
+    background-color: #00d9ff; 
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.dropdown a{
+  display: none;
+}
+.dropdown h1{
+    color: white;
+    margin-right:20px ;
+}
+
+
+.dropdown-content {
+    position: absolute;
+    width: 300px;
+    display: block; 
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content video {
+  
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+iframe {
+    position: relative;
+    top:-300px;
+    right: 300px;
+    pointer-events: auto;
+    width: 800px;
+    height: 500px;
+    border: none;
+}
+
+
+
+
+.team{
+  text-align: center;
+
+  
+}
+.titulli2 h1{
+  margin-top: 50px;
+  font-size: 50px;
+   color: white;
+}
+.titulli2 p{
+  font-size: x-large;
+   color: #33384d;
+   margin-bottom: 100px;
+}
+.person{
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+ .person1{
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.person2{
+  position: relative;
+
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.person3{
+  position: relative;
+
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.person1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.person2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+.person3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.person1:hover img {
+  filter: brightness(25%);
+}
+.person2:hover img {
+  filter: brightness(25%);
+}
+.person3:hover img {
+  filter: brightness(25%);
+}
+.teksti2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(9, 1, 50, 0.332);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.3s ease;
+}
+.person1:hover .teksti2 {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: translateY(0);
+}
+.person2:hover .teksti2 {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: translateY(0);
+}
+.person3:hover .teksti2 {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: translateY(0);
+}
+
+.name {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.icons a {
+  width: 35px;
+  height: 35px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+  transition: 0.3s;
+}
+.icons a:hover {
+  background: #00acee;
+  color: white;
+}
+
+
+
+.divi2{
+  background-image: radial-gradient(circle, #0f3947,#031D26);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 500px;
+}
+.foto2 img{
+
+  margin-left: -100px;
+  border-radius: 29px ;
+}
+.teksti3{
+
+  width: 100%;
+  margin-left: 100px;
+  color: white;
+  font-size: x-large;
+}
+.teksti3 p{
+  color: rgb(81, 101, 103);
+}
+.fundi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.pjesa1 a{
+  font-size: larger;
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+.pjesa2 a{
+  font-size: larger;
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+.pjesa1 a:hover{
+  color: aqua;
+}
+.pjesa2 a:hover{
+  color: aqua;
+}
+
+
+.reklama{
+display: flex;
+justify-content: space-around;
+}
+.artifice p{
+color: #494c64;
+font-size: larger;
+}
+.app {
+  display: flex;
+  gap: 10px;
+}
+.app a {
+  width: 35px;
+  height: 35px;
+  border: 1px solid aqua;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.app a:hover {
+  width: 32px;
+  height: 32px;
+  background: #00acee;
+  color: rgb(0, 0, 0);
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 968px) {
+
+ body,html{
+  width: 100%;
+ }
+
+.container{
+  width: 100%;
+  display: flex;
+
+}
+.links {
+  display: none;
+}
+.dropdown2{
+  display: block;
+ }
+
+.divi1{
+  margin-left: 25px;
+  flex-direction: column;
+  display: flex;
+  width: 200%;
+}
+.teksti{
+  color: white;
+  text-align: center;
+  width: 80%;
+
+}
+.foto img{
+  width: 100%;
+}
+
+.teksti p,h1{
+  width: 100%;
+}
+.story{
+  width: 200%;
+  display: flex;
+  flex-direction: column;
+flex-wrap: wrap;
+align-items: end;
+}
+
+.foto2 img{
+  width: 600px;
+}
+
+.kryesor{
+  width: 200%;
+  display: flex;
+}
+.box{
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+
+
+.boxat2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-items: flex-start ;
+}
+.box1 p{
+  font-size: 30px;
+}
+.box1 h3{
+  font-size: 30px;
+}
+.box1{
+  width: 90%;
+  height: 200px;
+}
+.foto2 img{
+  display: none ;
+}
+
+
+
+
+.intro{
+  width: 213%;
+  
+}
+.dropdown{
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.person{
+  display: flex;
+  flex-direction: column;
+  width:210%;
+  gap: 50px;
+}
+.titulli2{
+  
+  width: 210%;
+}
+
+.team{
+  width: 100%;
+}
+.dropdown a{
+  color: white;
+  display: block;
+  margin-left: 20px;
+}
+.dropdown-content iframe{
+  display: none;
+}
+
+
+.divi2{
+  width: 210%;
+
+}
+.fundi{
+  display: flex;
+  flex-direction: column;
+  width: 210%;
+}
+.reklama{
+  width: 210%;
+}
+}
